@@ -1,0 +1,23 @@
+{
+  "name": "portfolio_project_1",
+  "version": "0.0.1",
+  "description": "a tribute project for a simple portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/portojs/portfolio_project_1.git"
+  },
+  "author": "Peter Krevenets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/portojs/portfolio_project_1/issues"
+  },
+  "homepage": "https://github.com/portojs/portfolio_project_1#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.0"
+  }
+}
