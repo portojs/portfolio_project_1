@@ -1,7 +1,8 @@
 /* Typography
 ================================= */
 
-.sk-the-man-right {
+.sk-the-man-right,
+.sk-the-books-1-left {
   font-size: larger;
 }
 
@@ -15,11 +16,17 @@
 /* Part - The Man
 ================================= */
 
-.sk-the-man {
+.sk-the-man,
+.sk-the-books {
   padding-top: 6em;
 }
 
 .sk-the-man-left h2 {
   margin: 0;
-  padding-top: 80px;
+  padding-top: 90px;
+}
+
+.sk-the-books-1-right h2 {
+  margin: 0;
+  padding-top: 100px;
 }
