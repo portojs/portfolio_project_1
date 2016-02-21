@@ -1,10 +1,19 @@
+
+/* Global
+================================= */
+
+h1 {
+  margin: 0;
+  padding-top: 90px;
+}
+
 /* Typography
 ================================= */
 
-.sk-the-man-right,
-.sk-the-books-1-left {
+p {
   font-size: larger;
 }
+
 
 /* Carousel
 ================================= */
@@ -13,20 +22,19 @@
   padding-top: 50px;
 }
 
-/* Part - The Man
+/*
 ================================= */
 
-.sk-the-man,
-.sk-the-books {
+.sk-row {
   padding-top: 6em;
 }
 
-.sk-the-man-left h2 {
-  margin: 0;
-  padding-top: 90px;
-}
+/* Images
+================================= */
 
-.sk-the-books-1-right h2 {
-  margin: 0;
-  padding-top: 100px;
+img.dead-zone {
+  width: 158px;
+  height: 239px;
+  margin: 0 auto;
+  display: block;
 }
