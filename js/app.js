@@ -6,19 +6,7 @@
 $(document).ready(function() {
   var $animatedObjects = $('.hideme'),
       dt1 = $('.book-dt-1'),
-      dt2 = $('.book-dt-2'),
-      dt3 = $('.book-dt-3'),
-      dt4 = $('.book-dt-4'),
-      dt5 = $('.book-dt-5'),
-      dt6 = $('.book-dt-6'),
-      dt7 = $('.book-dt-7'),
-      dt1_flag = true,
-      dt2_flag = true,
-      dt3_flag = true,
-      dt4_flag = true,
-      dt5_flag = true,
-      dt6_flag = true,
-      dt7_flag = true;
+      dt1_flag = true;
 
   /* Every time the window is scrolled */
   $(window).scroll(function() {
