@@ -21,7 +21,7 @@
             <ul class="dropdown-menu">
               <li><a href="#book-dead-zone">The Dead Zone</a></li>
               <li><a href="#book-shining">The Shining</a></li>
-              <li><a href="#dark-tower">The Dark Tower</a></li>
+              <li><a href="#book-dark-tower">The Dark Tower</a></li>
               <li><a href="#">Duma Key</a></li>
               <li class="divider"></li>
               <li><a href="#">Short Story Collections</a></li>
@@ -71,7 +71,7 @@
         <div class="col-md-6 sk-the-man-left">
           <h1 class="text-center">The Man</h1>
         </div>
-        <div class="col-md-6 sk-the-man-right text-justify">
+        <div class="desc-col col-md-6 sk-the-man-right text-justify">
           <p>
             Stephen Edwin King (born September 21, 1947) is an American author of contemporary horror, supernatural fiction, suspense, science fiction,
             and fantasy.</p>
@@ -89,7 +89,7 @@
     <!-- The Books -->
     <div class="container sk-row" id="the-books">
       <div class="row">
-        <div class="col-md-6 sk-the-books-1-left text-justify">
+        <div class="desc-col col-md-6 sk-the-books-1-left text-justify">
           <p>
             With 54 novels and over 200 short stories it's very hard to choose a few. And yet as anybody else I have my own favourites.
             These are all time classics and just stories that settled into my mind.
@@ -113,9 +113,9 @@
     <div class="container sk-row" id="book-dead-zone">
       <div class="row">
         <div class="col-md-6">
-          <img class="dead-zone" src="img/book_dead_zone.jpg" alt="Cover of The Dead Zone">
+          <img class="hideme hideme-left book" src="img/book_dead_zone.jpg" alt="Cover of The Dead Zone">
         </div>
-        <div class="col-md-6 text-justify">
+        <div class="desc-col col-md-6 text-justify">
           <p>
             <b>The Dead Zone</b> is a supernatural thriller novel by Stephen King published in 1979.
           </p>
@@ -135,7 +135,7 @@
     <!-- Books - The Shining -->
     <div class="container sk-row" id="book-shining">
       <div class="row">
-        <div class="col-md-6 text-justify">
+        <div class="desc-col col-md-6 text-justify">
           <p>
             <b>The Shining</b> is a horror novel by American author Stephen King.
             Published in 1977, it is King's third published novel and first hardback bestseller,
@@ -150,7 +150,7 @@
           </p>
         </div>
         <div class="col-md-6">
-          <img class="shining" src="img/book_shining.jpg" alt="Cover of The Shining">
+          <img class="hideme hideme-right book" src="img/book_shining.jpg" alt="Cover of The Shining">
         </div>
       </div>
     </div><!-- End Books - The Shining -->
@@ -158,10 +158,16 @@
     <!-- Books - The Dark Tower -->
     <div class="container sk-row" id="book-dark-tower">
       <div class="row">
-        <div class="col-md-6">
-          <img class="dark-tower" src="img/book_dead_zone.jpg" alt="Cover of The Dead Zone">
+        <div class="dark-tower-imgs col-md-6">
+          <img class="book book-dt book-dt-1" src="img/book_dt_1_gunslinger.jpg" alt="Cover of The Gunslinger">
+          <img class="book book-dt book-dt-2" src="img/book_dt_2_drawing_of_the_three.jpg" alt="Cover of The Drawing of the Three">
+          <img class="book book-dt book-dt-3" src="img/book_dt_3_waste_lands.jpg" alt="Cover of The Waste Lands">
+          <img class="book book-dt book-dt-4" src="img/book_dt_4_wizard_and_glass.jpg" alt="Cover of The Wizard and Glass">
+          <img class="book book-dt book-dt-5" src="img/book_dt_5_wolvescalla.jpg" alt="Cover of The Wolves of Calla">
+          <img class="book book-dt book-dt-6" src="img/book_dt_6_song_of_susannah.jpg" alt="Cover of The Song of Susannah">
+          <img class="book book-dt book-dt-7" src="img/book_dt_7_dark_tower.jpg" alt="Cover of The Dark Tower">
         </div>
-        <div class="col-md-6 text-justify">
+        <div class="desc-col col-md-6 text-justify">
           <p>
             <b>The Dead Zone</b> is a supernatural thriller novel by Stephen King published in 1979.
           </p>
@@ -184,5 +190,6 @@
 
     <script src="vendor/js/jquery.js"></script>
     <script src="vendor/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
