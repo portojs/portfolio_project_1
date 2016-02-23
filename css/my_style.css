@@ -57,95 +57,95 @@ img.book {
   margin: 0 auto;
   display: block;
 }
-/*div.dark-tower-imgs {*/
-  /*position: relative;*/
-/*}*/
+/* book cover images collection */
 .book-coll {
   position: absolute;
   opacity: 0;
 }
+/* dark tower books */
 .book-dt-1 {
    top: 0;
-   left: 15px;
+   left: 10px;
    z-index: 0;
  }
 .book-dt-2 {
   top: 0;
-  left: 75px;
+  left: 70px;
   z-index: 1;
 }
 .book-dt-3 {
   top: 0;
-  left: 135px;
+  left: 130px;
   z-index: 2;
 }
 .book-dt-4 {
   top: 0;
-  left: 195px;
+  left: 190px;
   z-index: 3;
 }
 .book-dt-5 {
   top: 0;
-  left: 255px;
+  left: 250px;
   z-index: 4;
 }
 .book-dt-6 {
   top: 0;
-  left: 315px;
+  left: 310px;
   z-index: 5;
 }
 .book-dt-7 {
   top: 0;
-  left: 375px;
+  left: 370px;
   z-index: 6;
 }
+/* short story collections */
 .book-ss-1 {
   top: 0;
-  left: 15px;
+  left: 10px;
   z-index: 0;
 }
 .book-ss-2 {
   top: 0;
-  left: 75px;
+  left: 45px;
   z-index: 1;
 }
 .book-ss-3 {
   top: 0;
-  left: 135px;
+  left: 85px;
   z-index: 2;
 }
 .book-ss-4 {
   top: 0;
-  left: 195px;
+  left: 125px;
   z-index: 3;
 }
 .book-ss-5 {
   top: 0;
-  left: 255px;
+  left: 165px;
   z-index: 4;
 }
 .book-ss-6 {
   top: 0;
-  left: 315px;
+  left: 205px;
   z-index: 5;
 }
 .book-ss-7 {
   top: 0;
-  left: 375px;
+  left: 245px;
   z-index: 6;
 }
 .book-ss-8 {
   top: 0;
-  left: 375px;
+  left: 285px;
   z-index: 6;
 }
 .book-ss-9 {
   top: 0;
-  left: 375px;
+  left: 325px;
   z-index: 6;
 }
 .book-ss-10 {
   top: 0;
-  left: 375px;
+  left: 365px;
   z-index: 6;
 }
