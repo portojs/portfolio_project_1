@@ -152,14 +152,9 @@ img.book {
 #about h1 {
   padding-bottom: 1em;
 }
-
-#about h4 {
-  padding: 1.5em 0 1em;
-}
-
 .contact-info {
   list-style: none;
-  padding: 0;
+  padding: 1.5em 0 0 0;
   margin: 0;
 }
 .contact-info a {
@@ -187,7 +182,6 @@ footer {
   padding-top: 7em;
   background-color: #dcdcdc;
 }
-
 .footer-last-line {
   font-size: 0.9em;
   padding-bottom: 2em;
