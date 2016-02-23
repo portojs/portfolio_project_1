@@ -57,18 +57,18 @@ img.book {
   margin: 0 auto;
   display: block;
 }
-div.dark-tower-imgs {
-  position: relative;
-}
-.book-dt {
+/*div.dark-tower-imgs {*/
+  /*position: relative;*/
+/*}*/
+.book-coll {
   position: absolute;
   opacity: 0;
 }
 .book-dt-1 {
-  top: 0;
-  left: 15px;
-  z-index: 0;
-}
+   top: 0;
+   left: 15px;
+   z-index: 0;
+ }
 .book-dt-2 {
   top: 0;
   left: 75px;
@@ -95,6 +95,56 @@ div.dark-tower-imgs {
   z-index: 5;
 }
 .book-dt-7 {
+  top: 0;
+  left: 375px;
+  z-index: 6;
+}
+.book-ss-1 {
+  top: 0;
+  left: 15px;
+  z-index: 0;
+}
+.book-ss-2 {
+  top: 0;
+  left: 75px;
+  z-index: 1;
+}
+.book-ss-3 {
+  top: 0;
+  left: 135px;
+  z-index: 2;
+}
+.book-ss-4 {
+  top: 0;
+  left: 195px;
+  z-index: 3;
+}
+.book-ss-5 {
+  top: 0;
+  left: 255px;
+  z-index: 4;
+}
+.book-ss-6 {
+  top: 0;
+  left: 315px;
+  z-index: 5;
+}
+.book-ss-7 {
+  top: 0;
+  left: 375px;
+  z-index: 6;
+}
+.book-ss-8 {
+  top: 0;
+  left: 375px;
+  z-index: 6;
+}
+.book-ss-9 {
+  top: 0;
+  left: 375px;
+  z-index: 6;
+}
+.book-ss-10 {
   top: 0;
   left: 375px;
   z-index: 6;

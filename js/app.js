@@ -22,7 +22,7 @@ $(document).ready(function() {
     /* Animation sequence for Dark Tower Books */
     var dt1_bottom = dt1.offset().top + dt1.outerHeight(),
         bottomOfWindow = $(window).scrollTop() + $(window).height(),
-        duration = 500;
+        duration = 800;
     if (dt1_flag === true) {
       if (bottomOfWindow > dt1_bottom) {
         $('.book-dt-1,.book-dt-2,.book-dt-3,.book-dt-4,.book-dt-5,.book-dt-6,.book-dt-7').each(function(index) {
