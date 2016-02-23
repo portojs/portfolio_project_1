@@ -10,6 +10,12 @@ h1 {
 .container.sk-row {
   background-color: #dcdcdc;
 }
+.sk-row {
+  padding-top: 6em;
+}
+.desc-col {
+  padding: 0 30px;
+}
 
 /* Typography
 ================================= */
@@ -28,17 +34,7 @@ p {
   padding-right: 0;
 }
 
-/* Rows
-================================= */
-
-.sk-row {
-  padding-top: 6em;
-}
-.desc-col {
-  padding: 0 30px;
-}
-
-/* Images
+/* Section - books
 ================================= */
 
 .hideme {
@@ -148,4 +144,30 @@ img.book {
   top: 0;
   left: 365px;
   z-index: 6;
+}
+
+/* Section - About
+================================= */
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+.contact-info li.facebook a {
+  background-image: url('../img/contact_facebook.png');
+}
+.contact-info li.mail a {
+  background-image: url('../img/contact_mail.png');
+}
+.contact-info li.twitter a {
+  background-image: url('../img/contact_twitter-wrap.png');
 }
