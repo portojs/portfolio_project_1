@@ -149,9 +149,12 @@ img.book {
 /* Section - About
 ================================= */
 
+#about h1 {
+  padding-bottom: 1em;
+}
 .contact-info {
   list-style: none;
-  padding: 0;
+  padding: 1.5em 0 0 0;
   margin: 0;
 }
 .contact-info a {
@@ -170,4 +173,16 @@ img.book {
 }
 .contact-info li.twitter a {
   background-image: url('../img/contact_twitter-wrap.png');
+}
+
+/* Footer
+================================= */
+
+footer {
+  padding-top: 7em;
+  background-color: #dcdcdc;
+}
+.footer-last-line {
+  font-size: 0.9em;
+  padding-bottom: 2em;
 }
