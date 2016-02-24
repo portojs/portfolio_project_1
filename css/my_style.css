@@ -60,88 +60,71 @@ img.book {
 }
 /* dark tower books */
 .book-dt-1 {
-   top: 0;
    left: 10px;
    z-index: 0;
  }
 .book-dt-2 {
-  top: 0;
   left: 70px;
   z-index: 1;
 }
 .book-dt-3 {
-  top: 0;
   left: 130px;
   z-index: 2;
 }
 .book-dt-4 {
-  top: 0;
   left: 190px;
   z-index: 3;
 }
 .book-dt-5 {
-  top: 0;
   left: 250px;
   z-index: 4;
 }
 .book-dt-6 {
-  top: 0;
   left: 310px;
   z-index: 5;
 }
 .book-dt-7 {
-  top: 0;
   left: 370px;
   z-index: 6;
 }
 /* short story collections */
 .book-ss-1 {
-  top: 0;
   left: 10px;
   z-index: 0;
 }
 .book-ss-2 {
-  top: 0;
   left: 50px;
   z-index: 1;
 }
 .book-ss-3 {
-  top: 0;
   left: 90px;
   z-index: 2;
 }
 .book-ss-4 {
-  top: 0;
   left: 130px;
   z-index: 3;
 }
 .book-ss-5 {
-  top: 0;
   left: 170px;
   z-index: 4;
 }
 .book-ss-6 {
-  top: 0;
   left: 210px;
   z-index: 5;
 }
 .book-ss-7 {
-  top: 0;
   left: 250px;
   z-index: 6;
 }
 .book-ss-8 {
-  top: 0;
   left: 290px;
   z-index: 6;
 }
 .book-ss-9 {
-  top: 0;
   left: 330px;
   z-index: 6;
 }
 .book-ss-10 {
-  top: 0;
   left: 370px;
   z-index: 6;
 }
