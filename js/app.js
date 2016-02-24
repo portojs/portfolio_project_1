@@ -6,7 +6,22 @@
 $(document).ready(function() {
   var $animatedObjects = $('.hideme'),
       dt1 = $('.book-dt-1'),
+      dt2 = $('.book-dt-2'),
+      dt3 = $('.book-dt-3'),
+      dt4 = $('.book-dt-4'),
+      dt5 = $('.book-dt-5'),
+      dt6 = $('.book-dt-6'),
+      dt7 = $('.book-dt-7'),
       ss1 = $('.book-ss-1'),
+      ss2 = $('.book-ss-2'),
+      ss3 = $('.book-ss-3'),
+      ss4 = $('.book-ss-4'),
+      ss5 = $('.book-ss-5'),
+      ss6 = $('.book-ss-6'),
+      ss7 = $('.book-ss-7'),
+      ss8 = $('.book-ss-8'),
+      ss9 = $('.book-ss-9'),
+      ss10 = $('.book-ss-10'),
       dt1_flag = true,
       ss1_flag = true;
 
@@ -49,23 +64,42 @@ $(document).ready(function() {
     console.log($(window).width());
     if ($(window).width() > 1182) {
       console.log('shoot!');
-      $('.book-dt-1').css('left', 30);
-      $('.book-dt-2').css('left', 90);
-      $('.book-dt-3').css('left', 150);
-      $('.book-dt-4').css('left', 210);
-      $('.book-dt-5').css('left', 270);
-      $('.book-dt-6').css('left', 330);
-      $('.book-dt-7').css('left', 390);
-      $('.book-ss-1').css('left', 30);
-      $('.book-ss-2').css('left', 65);
-      $('.book-ss-3').css('left', 105);
-      $('.book-ss-4').css('left', 145);
-      $('.book-ss-5').css('left', 185);
-      $('.book-ss-6').css('left', 225);
-      $('.book-ss-7').css('left', 265);
-      $('.book-ss-8').css('left', 305);
-      $('.book-ss-9').css('left', 345);
-      $('.book-ss-10').css('left', 385);
+      dt1.css('left', 30);
+      dt2.css('left', 90);
+      dt3.css('left', 150);
+      dt4.css('left', 210);
+      dt5.css('left', 270);
+      dt6.css('left', 330);
+      dt7.css('left', 390);
+      ss1.css('left', 30);
+      ss2.css('left', 65);
+      ss3.css('left', 105);
+      ss4.css('left', 145);
+      ss5.css('left', 185);
+      ss6.css('left', 225);
+      ss7.css('left', 265);
+      ss8.css('left', 305);
+      ss9.css('left', 345);
+      ss10.css('left', 385);
+    }
+    if ($(window).width() < 1182) {
+      dt1.css('left', 30);
+      dt2.css('left', 75);
+      dt3.css('left', 120);
+      dt4.css('left', 165);
+      dt5.css('left', 210);
+      dt6.css('left', 255);
+      dt7.css('left', 300);
+      ss1.css('left', 30);
+      ss2.css('left', 60);
+      ss3.css('left', 90);
+      ss4.css('left', 120);
+      ss5.css('left', 150);
+      ss6.css('left', 180);
+      ss7.css('left', 210);
+      ss8.css('left', 240);
+      ss9.css('left', 270);
+      ss10.css('left', 300);
     }
   });
 });
