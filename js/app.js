@@ -43,4 +43,29 @@ $(document).ready(function() {
       }
     }
   });
+
+  /* Responsive design as per window resize */
+  $(window).resize(function() {
+    console.log($(window).width());
+    if ($(window).width() > 1182) {
+      console.log('shoot!');
+      $('.book-dt-1').css('left', 30);
+      $('.book-dt-2').css('left', 90);
+      $('.book-dt-3').css('left', 150);
+      $('.book-dt-4').css('left', 210);
+      $('.book-dt-5').css('left', 270);
+      $('.book-dt-6').css('left', 330);
+      $('.book-dt-7').css('left', 390);
+      $('.book-ss-1').css('left', 30);
+      $('.book-ss-2').css('left', 65);
+      $('.book-ss-3').css('left', 105);
+      $('.book-ss-4').css('left', 145);
+      $('.book-ss-5').css('left', 185);
+      $('.book-ss-6').css('left', 225);
+      $('.book-ss-7').css('left', 265);
+      $('.book-ss-8').css('left', 305);
+      $('.book-ss-9').css('left', 345);
+      $('.book-ss-10').css('left', 385);
+    }
+  });
 });
