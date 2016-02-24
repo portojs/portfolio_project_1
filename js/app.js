@@ -64,42 +64,50 @@ $(document).ready(function() {
     console.log($(window).width());
     if ($(window).width() > 1182) {
       console.log('shoot!');
-      dt1.css('left', 30);
-      dt2.css('left', 90);
-      dt3.css('left', 150);
-      dt4.css('left', 210);
-      dt5.css('left', 270);
-      dt6.css('left', 330);
-      dt7.css('left', 390);
-      ss1.css('left', 30);
-      ss2.css('left', 65);
-      ss3.css('left', 105);
-      ss4.css('left', 145);
-      ss5.css('left', 185);
-      ss6.css('left', 225);
-      ss7.css('left', 265);
-      ss8.css('left', 305);
-      ss9.css('left', 345);
-      ss10.css('left', 385);
+      if (!dt1_flag) {
+        dt1.css('left', 30);
+        dt2.css('left', 90);
+        dt3.css('left', 150);
+        dt4.css('left', 210);
+        dt5.css('left', 270);
+        dt6.css('left', 330);
+        dt7.css('left', 390);
+      }
+      if (!ss1_flag) {
+        ss1.css('left', 30);
+        ss2.css('left', 65);
+        ss3.css('left', 105);
+        ss4.css('left', 145);
+        ss5.css('left', 185);
+        ss6.css('left', 225);
+        ss7.css('left', 265);
+        ss8.css('left', 305);
+        ss9.css('left', 345);
+        ss10.css('left', 385);
+      }
     }
     if ($(window).width() < 1182) {
-      dt1.css('left', 30);
-      dt2.css('left', 75);
-      dt3.css('left', 120);
-      dt4.css('left', 165);
-      dt5.css('left', 210);
-      dt6.css('left', 255);
-      dt7.css('left', 300);
-      ss1.css('left', 30);
-      ss2.css('left', 60);
-      ss3.css('left', 90);
-      ss4.css('left', 120);
-      ss5.css('left', 150);
-      ss6.css('left', 180);
-      ss7.css('left', 210);
-      ss8.css('left', 240);
-      ss9.css('left', 270);
-      ss10.css('left', 300);
+      if (!dt1_flag) {
+        dt1.css('left', 30);
+        dt2.css('left', 75);
+        dt3.css('left', 120);
+        dt4.css('left', 165);
+        dt5.css('left', 210);
+        dt6.css('left', 255);
+        dt7.css('left', 300);
+      }
+      if (!ss1_flag) {
+        ss1.css('left', 30);
+        ss2.css('left', 60);
+        ss3.css('left', 90);
+        ss4.css('left', 120);
+        ss5.css('left', 150);
+        ss6.css('left', 180);
+        ss7.css('left', 210);
+        ss8.css('left', 240);
+        ss9.css('left', 270);
+        ss10.css('left', 300);
+      }
     }
   });
 });
