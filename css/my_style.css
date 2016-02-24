@@ -149,6 +149,9 @@ img.book {
 /* Section - About
 ================================= */
 
+#about {
+  padding-bottom: 5em;
+}
 #about h1 {
   padding-bottom: 1em;
 }
@@ -179,8 +182,9 @@ img.book {
 ================================= */
 
 footer {
-  padding-top: 7em;
-  background-color: #dcdcdc;
+  padding-top: 2em;
+  background-color: #333;
+  color: #fff;
 }
 .footer-last-line {
   font-size: 0.9em;
