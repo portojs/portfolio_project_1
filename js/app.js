@@ -30,7 +30,7 @@ $(document).ready(function() {
   /* Every time the window is scrolled */
   $(window).scroll(function() {
 
-    if ($(window).width() > 991) {
+    if ($(window).width() > 970) {
       /* Check location of each animated element */
       $animatedObjects.each(function() {
         var bottomOfObject = $(this).offset().top + $(this).outerHeight();
