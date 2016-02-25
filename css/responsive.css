@@ -79,29 +79,81 @@
     left: 0;
   }
 
-  /* Book columns
+  /* The Man and The Books columns
   ================================= */
 
-  .sk-row {
-    padding-top: 0;
-  }
-  .desc-col {
-    padding: 0 2.5em;
-  }
+  /* show titles */
   .sk-row .only-for-small {
     display: block;
   }
   .sk-row .only-for-large {
     display: none;
   }
-  #book-dead-zone,
-  #book-shining {
-    padding: 3em 2em 0 2em;
+
+  /* Book columns
+  ================================= */
+
+  /* reformat book columns */
+  .sk-row {
+    padding: 0.5em 3em 0 3em;
+  }
+  .desc-col {
+    padding: 0;
+  }
+  .book-column {
+    padding: 0;
+  }
+  img.book {
+    margin: 0;
+  }
+  #book-dead-zone.sk-row,
+  #book-shining.sk-row,
+  #book-dark-tower.sk-row {
+    padding-top: 2em;
   }
   #book-dead-zone .desc-col,
-  #book-shining .desc-col {
-    padding: 0 1.1em;
+  #book-dark-tower .desc-col {
+    padding-left: 1em;
   }
+  /* reformat Dark Tower books */
+  #book-shining .desc-col {
+    padding-right: 1em;
+  }
+  .book-coll {
+    opacity: 1;
+  }
+  .book-dt-1 {
+    left: 0;
+  }
+  .book-dt-2 {
+    left: 10px;
+  }
+  .book-dt-3 {
+    left: 20px;
+  }
+  .book-dt-4 {
+    left: 30px;
+  }
+  .book-dt-5 {
+    left: 40px;
+  }
+  .book-dt-6 {
+    left: 50px;
+  }
+  .book-dt-7 {
+    left: 60px;
+  }
+  /*#book-dead-zone .desc-col {*/
+    /*padding-right: 2em;*/
+  /*}*/
+  /*#book-dead-zone,*/
+  /*#book-shining {*/
+    /*padding: 3em 2em 0 2em;*/
+  /*}*/
+  /*#book-dead-zone .desc-col,*/
+  /*#book-shining .desc-col {*/
+    /*padding: 0 1.1em;*/
+  /*}*/
   /*#the-books .row {*/
     /*display: table;*/
   /*}*/
