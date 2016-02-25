@@ -65,21 +65,29 @@
     margin: 0;
     padding: 1em 0 1em;
   }
-  /*.book-column {*/
-    /*margin: 0;*/
-    /*padding: 3em 0 2em;*/
-    /*height: auto;*/
-  /*}*/
+
+  /* Cancel image animations
+  ================================= */
+
+  .hideme {
+    opacity: 1;
+  }
+  .hideme-left {
+    left: 0;
+  }
+  .hideme-right {
+    left: 0;
+  }
+
+  /* Book columns
+  ================================= */
+
   .sk-row {
     padding-top: 0;
   }
   .desc-col {
     padding: 0 2.5em;
   }
-
-  /* Book columns
-  ================================= */
-
   .sk-row .only-for-small {
     display: block;
   }
@@ -88,10 +96,11 @@
   }
   #book-dead-zone,
   #book-shining {
-    padding: 3em 2.5em;
+    padding: 3em 2em 0 2em;
   }
-  #book-dead-zone .desc-col {
-    padding: 0 1.2em;
+  #book-dead-zone .desc-col,
+  #book-shining .desc-col {
+    padding: 0 1.1em;
   }
   /*#the-books .row {*/
     /*display: table;*/

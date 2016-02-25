@@ -30,30 +30,31 @@ $(document).ready(function() {
   /* Every time the window is scrolled */
   $(window).scroll(function() {
 
-
-    /* Check location of each animated element */
-    $animatedObjects.each(function() {
-      var bottomOfObject = $(this).offset().top + $(this).outerHeight();
-      var bottomOfWindow = $(window).scrollTop() + $(window).height();
-      /* If object is completely visible, fade it in */
-      if (bottomOfWindow > bottomOfObject) {
-        $(this).animate({'opacity': 1, 'left': 0}, 500);
-      }
-    });
-    /* Animation  for Dark Tower Books */
-    var dt1_bottom = $(dtCollection[0]).offset().top + $(dtCollection[0]).outerHeight(),
+    if ($(window).width() > 991) {
+      /* Check location of each animated element */
+      $animatedObjects.each(function() {
+        var bottomOfObject = $(this).offset().top + $(this).outerHeight();
+        var bottomOfWindow = $(window).scrollTop() + $(window).height();
+        /* If object is completely visible, fade it in */
+        if (bottomOfWindow > bottomOfObject) {
+          $(this).animate({'opacity': 1, 'left': 0}, 500);
+        }
+      });
+      /* Animation  for Dark Tower Books */
+      var dt1_bottom = $(dtCollection[0]).offset().top + $(dtCollection[0]).outerHeight(),
         ss1_bottom = $(ssCollection[0]).offset().top + $(ssCollection[0]).outerHeight(),
         bottomOfWindow = $(window).scrollTop() + $(window).height();
-    if (dt1_flag) {
-      if (bottomOfWindow > dt1_bottom) {
-        animate(dtCollection);
-        dt1_flag = false;
+      if (dt1_flag) {
+        if (bottomOfWindow > dt1_bottom) {
+          animate(dtCollection);
+          dt1_flag = false;
+        }
       }
-    }
-    if (ss1_flag) {
-      if (bottomOfWindow > ss1_bottom) {
-        animate(ssCollection);
-        ss1_flag = false;
+      if (ss1_flag) {
+        if (bottomOfWindow > ss1_bottom) {
+          animate(ssCollection);
+          ss1_flag = false;
+        }
       }
     }
   });
