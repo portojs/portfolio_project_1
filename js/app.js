@@ -70,11 +70,13 @@ $(document).ready(function() {
         changePosition(ssCollection, 40);
       }
     } else {
-      if (!dt1_flag) {
-        changePosition(dtCollection, 45);
-      }
-      if (!ss1_flag) {
-        changePosition(ssCollection, 30);
+      if ($(window).width() > 970) {
+        if (!dt1_flag) {
+          changePosition(dtCollection, 45);
+        }
+        if (!ss1_flag) {
+          changePosition(ssCollection, 30);
+        }
       }
     }
   });

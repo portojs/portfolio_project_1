@@ -127,56 +127,56 @@
     opacity: 1;
   }
   .book-dt-1 {
-    left: 0;
+    left: 0 !important;
   }
   .book-dt-2 {
-    left: 20px;
+    left: 20px !important;
   }
   .book-dt-3 {
-    left: 40px;
+    left: 40px !important;
   }
   .book-dt-4 {
-    left: 60px;
+    left: 60px !important;
   }
   .book-dt-5 {
-    left: 80px;
+    left: 80px !important;
   }
   .book-dt-6 {
-    left: 100px;
+    left: 100px !important;
   }
   .book-dt-7 {
-    left: 120px;
+    left: 120px !important;
   }
   /* reformat Short Story books */
   .book-ss-1 {
-    left: 0;
+    left: 0 !important;
   }
   .book-ss-2 {
-    left: 20px;
+    left: 20px !important;
   }
   .book-ss-3 {
-    left: 40px;
+    left: 40px !important;
   }
   .book-ss-4 {
-    left: 60px;
+    left: 60px !important;
   }
   .book-ss-5 {
-    left: 80px;
+    left: 80px !important;
   }
   .book-ss-6 {
-    left: 100px;
+    left: 100px !important;
   }
   .book-ss-7 {
-    left: 120px;
+    left: 120px !important;
   }
   .book-ss-8 {
-    left: 140px;
+    left: 140px !important;
   }
   .book-ss-9 {
-    left: 160px;
+    left: 160px !important;
   }
   .book-ss-10 {
-    left: 180px;
+    left: 180px !important;
   }
 
 }
