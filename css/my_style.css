@@ -14,7 +14,7 @@ h1 {
   padding-top: 6em;
 }
 .desc-col {
-  padding: 0 30px;
+  padding: 0 2.5em;
 }
 
 /* Typography
@@ -37,6 +37,9 @@ p {
 /* Section - books
 ================================= */
 
+.only-for-small {
+  display: none;
+}
 .hideme {
   position: relative;
   opacity: 0;

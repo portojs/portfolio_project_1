@@ -57,7 +57,47 @@
 }
 
 @media screen and (max-width: 991px) {
-  body {
-    background-color: #00b3ee;
+
+  /* Global
+  ================================= */
+
+  h1 {
+    margin: 0;
+    padding: 1em 0 1em;
   }
+  .book-column {
+    margin: 0;
+    padding: 3em 0 2em;
+    height: auto;
+  }
+  .sk-row {
+    padding-top: 0;
+  }
+  .desc-col {
+    padding: 0 2.5em;
+  }
+
+  /* Rearrange columns
+  ================================= */
+
+  .sk-row .only-for-small {
+    display: block;
+  }
+  .sk-row .only-for-large {
+    display: none;
+  }
+  /*#the-books .row {*/
+    /*display: table;*/
+  /*}*/
+  /*#the-books .row div:first-child {*/
+    /*display: table-footer-group;*/
+  /*}*/
+  /*#the-books .row div:last-child {*/
+    /*display: table-header-group;*/
+  /*}*/
+  /*#the-books .row div:last-child p {*/
+    /*padding-left: 2.5em;*/
+    /*padding-right: 2.5em;*/
+  /*}*/
+
 }
