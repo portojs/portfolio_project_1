@@ -16,6 +16,9 @@ h1 {
 .desc-col {
   padding: 0 2.5em;
 }
+.mobile-show {
+  display: none;;
+}
 
 /* Typography
 ================================= */

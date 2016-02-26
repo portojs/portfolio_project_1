@@ -183,11 +183,17 @@
 
 @media screen and (max-width: 767px) {
 
+  .mobile-show {
+    display: block;
+  }
+  .mobile-hide {
+    display: none;
+  }
   img.book {
     margin: 0 auto;
   }
   .book-column {
-    background-color: #c9c9c9;
+    background-color: #d1d1d1;
     margin-bottom: 2em;
   }
   #book-dead-zone .desc-col,
