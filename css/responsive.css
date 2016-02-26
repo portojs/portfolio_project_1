@@ -203,5 +203,21 @@
   #book-duma-key .desc-col {
     padding: 0;
   }
+  #book-dark-tower .book-column,
+  #book-short-story .book-column {
+    height: 239px;
+  }
+  .dt-centering-div,
+  .ss-centering-div {
+    position: relative;
+    height: 239px;
+    margin: 0 auto;
+  }
+  .dt-centering-div {
+    width: 280px;
+  }
+  .ss-centering-div {
+    width: 340px;
+  }
 
 }
