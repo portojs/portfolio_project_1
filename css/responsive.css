@@ -181,8 +181,21 @@
 
 }
 
-@media screen and (max-width: 500px) {
-  .sk-row {
-    /*margin: 0;*/
+@media screen and (max-width: 767px) {
+
+  img.book {
+    margin: 0 auto;
   }
+  .book-column {
+    background-color: #c9c9c9;
+    margin-bottom: 2em;
+  }
+  #book-dead-zone .desc-col,
+  #book-dark-tower .desc-col,
+  #book-short-story .desc-col,
+  #book-shining .desc-col,
+  #book-duma-key .desc-col {
+    padding: 0;
+  }
+
 }
