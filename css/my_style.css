@@ -14,14 +14,17 @@ h1 {
   padding-top: 6em;
 }
 .desc-col {
-  padding: 0 30px;
+  padding: 0 2.5em;
+}
+.mobile-show {
+  display: none;;
 }
 
 /* Typography
 ================================= */
 
 p {
-  font-size: larger;
+  font-size: 1.2em;
 }
 
 
@@ -37,6 +40,9 @@ p {
 /* Section - books
 ================================= */
 
+.only-for-small {
+  display: none;
+}
 .hideme {
   position: relative;
   opacity: 0;
@@ -60,95 +66,64 @@ img.book {
 }
 /* dark tower books */
 .book-dt-1 {
-   top: 0;
    left: 10px;
-   z-index: 0;
  }
 .book-dt-2 {
-  top: 0;
   left: 70px;
-  z-index: 1;
 }
 .book-dt-3 {
-  top: 0;
   left: 130px;
-  z-index: 2;
 }
 .book-dt-4 {
-  top: 0;
   left: 190px;
-  z-index: 3;
 }
 .book-dt-5 {
-  top: 0;
   left: 250px;
-  z-index: 4;
 }
 .book-dt-6 {
-  top: 0;
   left: 310px;
-  z-index: 5;
 }
 .book-dt-7 {
-  top: 0;
   left: 370px;
-  z-index: 6;
 }
 /* short story collections */
 .book-ss-1 {
-  top: 0;
   left: 10px;
-  z-index: 0;
 }
 .book-ss-2 {
-  top: 0;
-  left: 45px;
-  z-index: 1;
+  left: 50px;
 }
 .book-ss-3 {
-  top: 0;
-  left: 85px;
-  z-index: 2;
+  left: 90px;
 }
 .book-ss-4 {
-  top: 0;
-  left: 125px;
-  z-index: 3;
+  left: 130px;
 }
 .book-ss-5 {
-  top: 0;
-  left: 165px;
-  z-index: 4;
+  left: 170px;
 }
 .book-ss-6 {
-  top: 0;
-  left: 205px;
-  z-index: 5;
+  left: 210px;
 }
 .book-ss-7 {
-  top: 0;
-  left: 245px;
-  z-index: 6;
+  left: 250px;
 }
 .book-ss-8 {
-  top: 0;
-  left: 285px;
-  z-index: 6;
+  left: 290px;
 }
 .book-ss-9 {
-  top: 0;
-  left: 325px;
-  z-index: 6;
+  left: 330px;
 }
 .book-ss-10 {
-  top: 0;
-  left: 365px;
-  z-index: 6;
+  left: 370px;
 }
 
 /* Section - About
 ================================= */
 
+#about {
+  padding-bottom: 5em;
+}
 #about h1 {
   padding-bottom: 1em;
 }
@@ -179,8 +154,9 @@ img.book {
 ================================= */
 
 footer {
-  padding-top: 7em;
-  background-color: #dcdcdc;
+  padding-top: 2em;
+  background-color: #333;
+  color: #fff;
 }
 .footer-last-line {
   font-size: 0.9em;

@@ -1,0 +1,223 @@
+@media screen and (max-width: 1199px) {
+
+  /* dark tower books */
+  .book-dt-1 {
+    left: 10px;
+  }
+  .book-dt-2 {
+    left: 55px;
+  }
+  .book-dt-3 {
+    left: 100px;
+  }
+  .book-dt-4 {
+    left: 145px;
+  }
+  .book-dt-5 {
+    left: 190px;
+  }
+  .book-dt-6 {
+    left: 235px;
+  }
+  .book-dt-7 {
+    left: 280px;
+  }
+  /* short story collections */
+  .book-ss-1 {
+    left: 10px;
+  }
+  .book-ss-2 {
+    left: 40px;
+  }
+  .book-ss-3 {
+    left: 70px;
+  }
+  .book-ss-4 {
+    left: 100px;
+  }
+  .book-ss-5 {
+    left: 130px;
+  }
+  .book-ss-6 {
+    left: 160px;
+  }
+  .book-ss-7 {
+    left: 190px;
+  }
+  .book-ss-8 {
+    left: 220px;
+  }
+  .book-ss-9 {
+    left: 250px;
+  }
+  .book-ss-10 {
+    left: 280px;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+  /* Global
+  ================================= */
+
+  h1 {
+    margin: 0;
+    padding: 1em 0 1em;
+  }
+
+  /* Cancel image animations
+  ================================= */
+
+  .hideme {
+    opacity: 1;
+  }
+  .hideme-left {
+    left: 0;
+  }
+  .hideme-right {
+    left: 0;
+  }
+
+  /* The Man and The Books columns
+  ================================= */
+
+  /* show titles */
+  .sk-row .only-for-small {
+    display: block;
+  }
+  .sk-row .only-for-large {
+    display: none;
+  }
+
+  /* Book columns
+  ================================= */
+
+  /* reformat book columns */
+  .sk-row {
+    padding: 0.5em 3em 0 3em;
+  }
+  .desc-col {
+    padding: 0;
+  }
+  .book-column {
+    padding: 0;
+  }
+  img.book {
+    margin: 0;
+  }
+  #book-dead-zone.sk-row,
+  #book-shining.sk-row,
+  #book-dark-tower.sk-row,
+  #book-duma-key.sk-row,
+  #book-short-story.sk-row {
+    padding-top: 2em;
+  }
+  #book-dead-zone .desc-col,
+  #book-dark-tower .desc-col,
+  #book-short-story .desc-col {
+    padding-left: 1em;
+  }
+  #book-shining .desc-col,
+  #book-duma-key .desc-col {
+    padding-right: 1em;
+  }
+  /* reformat Dark Tower books */
+  .book-coll {
+    opacity: 1;
+  }
+  .book-dt-1 {
+    left: 0 !important;
+  }
+  .book-dt-2 {
+    left: 20px !important;
+  }
+  .book-dt-3 {
+    left: 40px !important;
+  }
+  .book-dt-4 {
+    left: 60px !important;
+  }
+  .book-dt-5 {
+    left: 80px !important;
+  }
+  .book-dt-6 {
+    left: 100px !important;
+  }
+  .book-dt-7 {
+    left: 120px !important;
+  }
+  /* reformat Short Story books */
+  .book-ss-1 {
+    left: 0 !important;
+  }
+  .book-ss-2 {
+    left: 20px !important;
+  }
+  .book-ss-3 {
+    left: 40px !important;
+  }
+  .book-ss-4 {
+    left: 60px !important;
+  }
+  .book-ss-5 {
+    left: 80px !important;
+  }
+  .book-ss-6 {
+    left: 100px !important;
+  }
+  .book-ss-7 {
+    left: 120px !important;
+  }
+  .book-ss-8 {
+    left: 140px !important;
+  }
+  .book-ss-9 {
+    left: 160px !important;
+  }
+  .book-ss-10 {
+    left: 180px !important;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .mobile-show {
+    display: block;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  img.book {
+    margin: 0 auto;
+  }
+  .book-column {
+    background-color: #d1d1d1;
+    margin-bottom: 2em;
+  }
+  #book-dead-zone .desc-col,
+  #book-dark-tower .desc-col,
+  #book-short-story .desc-col,
+  #book-shining .desc-col,
+  #book-duma-key .desc-col {
+    padding: 0;
+  }
+  #book-dark-tower .book-column,
+  #book-short-story .book-column {
+    height: 239px;
+  }
+  .dt-centering-div,
+  .ss-centering-div {
+    position: relative;
+    height: 239px;
+    margin: 0 auto;
+  }
+  .dt-centering-div {
+    width: 280px;
+  }
+  .ss-centering-div {
+    width: 340px;
+  }
+
+}
