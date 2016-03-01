@@ -42,7 +42,6 @@ $(document).ready(function() {
     $(window).scroll(function() {
       /* Check if all animations already played */
       if (checkAnimations($animatedObjects) || dt1_flag || ss1_flag) {
-        console.log("scrolling...");
 
         if ($(window).width() > 970) {
           /* Check location of each animated element */
@@ -73,7 +72,6 @@ $(document).ready(function() {
           }
         }
       } else {
-        console.log("All over!");
         $(window).unbind('scroll');
       }
     });
@@ -81,7 +79,6 @@ $(document).ready(function() {
 
   /* Every time the window is resized */
   $(window).resize(function() {
-    console.log($(window).width());
     if ($(window).width() > 1182) {
       if (!dt1_flag) {
         changePosition(dtCollection, 60);
